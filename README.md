@@ -19,15 +19,7 @@ A chat assistant that handles three real insurance workflows end-to-end:
 | 🛠️ **Claim** | Upload damage photo + "I had an accident" | GPT-6 Luna looks at the photo, classifies damage severity → estimates repair cost → calculates payout (after depreciation + deductible) |
 | ❓ **Policy Q&A** | "What is the NCB ladder?" | RAG over IRDAI guidelines + policy terms → grounded, accurate answer |
 
-## 📓 Build it from scratch (Colab notebook)
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/prashant9501/car-insurance-agent-deployment/blob/main/notebooks/Building_a_Multi_Agent_Car_Insurance_AI_from_Scratch.ipynb)
-
-[`notebooks/Building_a_Multi_Agent_Car_Insurance_AI_from_Scratch.ipynb`](notebooks/Building_a_Multi_Agent_Car_Insurance_AI_from_Scratch.ipynb)
-builds the same system step by step — premium maths, tools, the vision tool, RAG, the supervisor and
-the LangGraph workflow — with an explanation after every cell. It needs only an OpenAI key stored in
-Colab Secrets as `OPENAI_API_KEY`, and runs end to end in under a minute of compute.
-
+ 
 ## 🏗️ Architecture
 
 ```
