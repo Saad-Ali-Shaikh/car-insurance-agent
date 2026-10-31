@@ -19,6 +19,10 @@ A chat assistant that handles three real insurance workflows end-to-end:
 | 🛠️ **Claim** | Upload damage photo + "I had an accident" | GPT-6 Luna looks at the photo, classifies damage severity → estimates repair cost → calculates payout (after depreciation + deductible) |
 | ❓ **Policy Q&A** | "What is the NCB ladder?" | RAG over IRDAI guidelines + policy terms → grounded, accurate answer |
 
+
+
+
+
  
 ## 🏗️ Architecture
 
